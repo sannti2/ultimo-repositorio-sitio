@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta style="display: none;" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterspace</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="form.js">
+    <link rel="icon" href="logo.ico">
+</head>
+
+<body class="body" style="font-size: 1em;background-position: center;background-repeat: no-repeat;background-size: cover;width: 90%;height: 100%;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<header>
+        <nav style="@media only screen and (max-width: 768px){
+                font-size: 1rem;}display: block;">
+                <h1 style="border-radius: 5px;color:white;text-align:center;background-color:#535353bb;padding: 1rem;padding: auto;width: 107%;margin-top: 0rem;"><img style="border-radius: 145px;text-align:left;height: 40px;width: 4%;"  src="logo.ico" alt="">
+                    Waterspace</h1>
+        <ul style="display: flex;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;padding-inline-start: 40px;">        
+            <li style="margin-left: 20%;color: white;text-align: left;height: 40px;width: 20%;height: 40px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;width: 15%;height: 70px;background: black;border-radius: 8px;margin-top: 5px;position:relative;"><a href="index.html"style="color:white;text-align:left;border: 3px solid black ;padding: inline 5px;" >Home</a></li>
+            <li style="color: white;margin:5px;height: 50px;width: 20%;height: 40px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;width: 15%;height: 70px;background:black;border-radius: 8px;margin-top: 5px;position: relative;"><a href="proyecto.html"style="color:white;text-align:left;border: 3px solid black ;padding: inline 5px;">Proyecto</a></li>
+            <li style="color: white;margin:5px;text-align: right;height: 50px;width: 20%;height: 40px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;width: 15%;height: 70px;background: black;border-radius: 8px;margin-top: 5px;position: relative;"><a href="integrantes.html"style="color:white;text-align:left;border: 3px solid black ;padding: inline 5px;">Integrantes</a></li>
+            <li style="color: white;margin:5px;height: 50px;width: 10%;height: 40px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;width: 15%;height: 70px;background:black;border-radius: 8px;margin-top: 5px;position: relative;"><a href="contacto.html"style="color:white;text-align:left;border: 3px solid black ;padding: inline 5px;">Contacto</a></li>
+        </ul>
+</header>
+        </nav>
+        
+        <div style="@media screen and (max-width: 768px) {
+            
+            margin: 0px;
+            font-size: 0.8em;
+        
+        };text-decoration: none;margin-left: 12%; color:white;border: 2px solid black;border-radius: 20px;text-align: center;margin-bottom: 15px;padding: 1px;display: block;background-color: rgba(0, 0, 0, 0.587);" >
+    <h2 style="text-align:center;" >Nuestro Contacto</h2>
+    </div>
+
+    <main style="margin-left: 38px;padding: 10px;background-color: #535353bb; border: 5px solid; padding: 1rem;width: 100%;display: flex;flex-direction: row;">
+        
+        <main  style="background-color: #ffffffbb;margin: 5%;border: 5px solid; padding: 1rem;text-align: justify;width: 20%;justify-content: center;">
+            <h2 style="color: #00002E">Nuestro sitio grupal</h2>
+                <p style="text-align:start;">Aca vas a poder conocer mejor quienes somos</p>
+                <a href="https://sannti2.github.io/ultimo-waterspace/"><p style="color:black ;width: 70%;padding: inline 10px;">Sitio web</a></p> 
+        </main> 
+
+        <main  style="background-color: #ffffffbb;margin: 5%;border: 5px solid; padding: 1rem;;width: 20%;justify-content: center;">
+             <h2 style="color: #00002E">Nuestro telefono</h2>
+                <p style="color:black ;width: 70%;padding: inline 10px;">Water space tel:<a href=" 1168586534">1168586534</p></a>
+        </main>
+
+        <main  style="background-color: #ffffffbb;margin: 5%;border: 5px solid; padding: 1rem;;width: 20%;justify-content: center;">
+            <h2 style="color: #00002E">Nuestro mail</h2>
+                <p>Email:</p>
+                <p style="color:black ;width: 70%;padding: inline 10px;"><a href="Waterspace@gmail.com" target="_blank">Waterspace@gmail.com</p></a>
+        </main>
+
+        <main style="background-color: #ffffffbb;margin: 5%;border: 5px solid; padding: 1rem;;width: 20%;justify-content: center;">            <h2 style="color: #00002E">Para mas info, envienos un formulario!</h2>
+            <form action="" method="POST" id="form">
+                <div class="form">
+                    <div class="grupo">
+                        <input type="text" name="" id="name" ><span class="barra"></span>
+                        <label for="">Nombre</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="" id="email" ><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="password" name="" id="password" ><span class="barra"></span>
+                        <label for="">Password</label>
+                    </div>
+                    
+                    <button type="submit">Suscribirte</button>
+                    <p class="warnings" id="warnings"></p>
+                </div>
+            </form>
+        
+            <script src="form.js"></script>
+        </main>
+
+</main>
+</body>
+    <footer style="@media (min-width: 576px){max-width: 540px;};box-sizing: border-box;display: block;background-color:rgba(255, 255, 255, 0.427);color:black;width: 110%;height:110%;align-items: center;">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <p style="margin-top: 0;margin-bottom: 1rem;display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;">© 2023 Waterspace.</p>
+        <p style="margin-top: 0;margin-bottom: 1rem;display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;">Coronel Santiago, Camila Nieba</p>
+        <p style="margin-top: 0;margin-bottom: 1rem;display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;">Todos los derechos reservados</p>
+        <img src="descarga.jpg" style="width: 10%;" alt="logo UADE">
+    </footer>
+</html>
